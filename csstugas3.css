@@ -1,0 +1,12 @@
+.gambarbulat {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+html{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: red;
+}

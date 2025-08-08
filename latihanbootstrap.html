@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profil Peserta PBL</title>
+      <style>
+
+          .fixed-right {
+                position: fixed;
+                right: 20px;
+                bottom: 10px; /* Distance from the bottom */ /* Distance from the right */
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                }
+    .zoom-hover {
+        overflow: hidden;
+      transition: transform 0.3s ease; /* Smooth animation */
+    }
+    .zoom-hover:hover {
+      transform: scale(1.03); /* Zoom in by 20% */
+    }
+  </style>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+      <link rel="stylesheet" href="csstugas3.css">
+  </head>
+  <body style="background-color: #ececec ">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg" style="margin-bottom: 20px; width: 100%; background-color: #2b2f32">
+        <div class="container">
+            <a class="navbar-brand" href="https://bbpvpbekasi.kemnaker.go.id/" target="_blank">
+                <img src="image/BBPVP.png" alt="BBPVP" height="30px" width="30 px" style="margin-right: 10px"/>BBPVP Bekasi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#mediasosial">Media Socsial</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="jumbotron jumbotron-fluid text-center" id="home">
+        <img src="image/pasfoto.jpg" class="gambarbulat" alt="gambarprofilbulat">
+        <div class="container">
+            <h1 class="display-4">Leonardo Fachasie</h1>
+            <p class="lead" style="margin-top:20px "><span style="font-size: 40px">H</span>alo Saya Leonardo Fachasie, Saya Peserta PBL untuk pengembangan Web dengan Node.js dan React</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container" style="margin-bottom: 20px">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>About Us</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="container" style="border: 2px solid black; height: 80px; width: 90%;background-color: white">
+                    <p style="text-align: justify">Saya seorang Freelance Web Designer berbasis wordpress, untuk sekarang sekarang saya lebih sering menggunakan plugin elementor karena jauh lebih cepat untuk mendesign web sesuai dengan apa yang klien saya inginkan</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container" style="border: 2px solid black; height: 80px ; width: 90% ; background-color: white">
+                    <p style="align-items: center; justify-content: center; text-align: justify">Saya juga mengambil pekerjaan mengajar anak-anak SD tentang basic phyton coding, agar anak-anak dapat diasah logikanya untuk memecahankan masalah</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" style="margin-top: 30px">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center" style="margin-bottom: 20px">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <a href="https://fimacomm.com" target="_blank">
+                        <img class="card-img-top zoom-hover" src="image/fimacom.png" alt="Card image cap">
+                    </a>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Fimacomm</h5>
+                        <p class="card-text">Website untuk perusahaan Event Organizer, saya membuatnya menggunakan wordpress, dan bantuan plugin elementor, dan menggunakan beberapa css dibuat sendiri</p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://thesovereigns.xyz" target="_blank">
+                    <img class="card-img-top zoom-hover" src="image/thesovereign.png" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">The Sovereigns</h5>
+                        <p class="card-text">Website untuk trading NFT, landing page website ini saya buat menggunakan wordpress bersama 2 orang teman saya, sekiranya sudah 1 tahun lalu, tetapi UInya sudah banyak diubah dari pertama kali saya buat</p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="whatssapp">
+        <div class="col fixed-right">
+            <a href="https://api.whatsapp.com/send?phone=6287762600772" target="_blank" class="sticky-bottom">
+                <i class="bi bi-whatsapp" style="font-size: 40px; color: green"></i>
+            </a>
+
+        </div>
+
+
+    </section>
+    <section id="mediasosial" style="margin-top: 80px">
+        <div class="row-cols-1">
+            <h1 style="margin-left: 35px;">Sosial Media</h1>
+            <a href="https://www.linkedin.com/in/leonardo-fachasie-a7237b379" target="_blank">
+                <img src="icon/linkedin.svg" style="width: 30px ;margin-left: 90px" alt="Linkedin">
+            </a>
+            <a href="https://www.instagram.com/fachasie" target="_blank">
+                <img src="icon/instagram.svg" style="width: 30px;margin-left: 40px" alt="Instagram">
+            </a>
+        </div>
+    </section>
+
+<footer>
+    <div class="container-fluid" style="width: 100%; margin-top: 40px ; background-color: #1a1d20">
+        <b style="text-align: left ; color: white">© 2025 Dibuat Oleh Leonardo Fachasie</b>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
